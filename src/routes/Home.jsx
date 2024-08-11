@@ -1,25 +1,12 @@
 import { useEffect } from "react";
-import logo from '../assets/logo.png';
+
 function Home() {
     useEffect(() => {
         document.title = "Michael Tuller - Home";
-      }, []);
+    }, []);
     return (
         <>
             <div className="grid-x" >
-                <div className="cell">
-                    <img src={logo} alt="Michael Tuller" />
-                </div>
-                <div className="cell">
-                    <nav>
-                        <ul class="vertical medium-horizontal menu">
-                            <li><a href="/"><i className="fi-list"></i> <span>Home</span></a></li>
-                            <li><a href="/certifications"><i className="fi-list"></i> <span>Certifications</span></a></li>
-                            <li><a href="/resume"><i className="fi-list"></i> <span>Resume</span></a></li>
-                            <li><a href="/work-examples"><i className="fi-list"></i> <span>Work Examples</span></a></li>
-                        </ul>
-                    </nav>
-                </div>
                 <main className="cell text-padding">
                     <h1>Welcome</h1>
                     <section >
