@@ -10,10 +10,11 @@ function Home() {
                 <main className="cell text-padding">
                     <h1>Welcome</h1>
                     <section >
-                        <p>I started my career as a designer and developer. I have worked in a number of areas within digital content and have always been drawn to connecting technology and people.I have seen the struggles that my parents, my peers, and my sons have had with digital information, and have always felt that there are better ways.
+                        <p>I have been fortunate to have worked with different companies, growing my knowledge of development as I go. First in design, then development. During that journey I have seen a number of technologies come and go, along with how we interact with websites, applications, and each other. Some good things have appeared and some not so good. But the idea of providing access to all, the initial ideas of the web.
                         </p>
-                        <p>Starting as a designer, I became facinated with how people percieved information. Later in my education I studied Psychology and Human Factors to understand deeper how everything connects. Then in 2013 my youngest son was in a car accident and suffered a severe TBI. Obviously this would change anyone's perspective, and since then I have been working with him to help get past the limitations that the accident put on him. In that journey, I found my passion in ensuring that technology is available to everyone. We just need to reach them.</p>
-                        <p>I hope you take a look at some of the work that I have included here. What you see is only the beginning.</p>
+                        <blockquote>Innovation is fueled by open standards and open access to knowledge. --Vint Cerf</blockquote>
+                        <p>I am fortunate to have the perspectives I do. I have aging parents that are confused by technology, an adult son that has grown up with the internet, and a son that suffered a <abbr title="Tramatic Brain Injury">TBI</abbr> at a young age. Their experiences along with my own frustrations at times have laid the foundation for my drive for accessibility in the web.</p>
+                        <p>I have worked in development and accessibility roles at a number of companies. Many that are well known, including Optum, Jostens, Wells Fargo, and U.S. Bank</p>
                     </section>
                 </main>
             </div>

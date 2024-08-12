@@ -8,3 +8,11 @@ body {
 .test-border {
   border: 1px solid red;
 }
+.examples {
+  margin: auto;
+}
+.examples img {
+  border: 1px solid gray;
+  margin: auto;
+  display: block;
+}
