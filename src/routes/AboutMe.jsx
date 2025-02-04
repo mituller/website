@@ -2,23 +2,81 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function AboutMe() {
-    useEffect(() => {
-        document.title = "Michael Tuller - About Me";
-      }, []);
-    return (
-        <div className="grid-x" >
-            <main className="cell text-padding">
-                <h1>About Me</h1>
-                <p>I grew up in a rural area of Nebraska, surrounded by people who worked hard all their lives. You could see it by just looking at their hands. I'm proud that I had those examples to look up to. To know that anything can be accomplished with some effort and grit. My father was a welder, and my mother worked many different jobs to pay the bills. They provided a foundation for me to be where I am now.</p>
-                <p>I am a proud father of 2 boys. They both amaze me in how they learn about life. My sons are far apart in age. One is 28 and the other 13. The younger son suffered a Tramatic Brain Injury as a toddler, and has changed my life. I see the world in a different way because of the stuggles he has. He has mobility and developmental challenges, which have required adaptive modifications at times. As he has grown, he has overcome many of these with the work he has put in. Many therapy sessions, working on learning and exercises to help him have helped. I have also been introduced fully to the area of special needs and accessibility.</p>
-                <p>I started my career as a designer, I was very interested in how people view and understand the world. How boundaries can be pushed to create engaging content. I especially loved learning about typography. Learning that we don't read letter by letter as we first learn, but more by the shape of words changed forever how I looked at content.</p>
-                <p>I later wanted to take the design skills to the web, and with that learned HTML. As I worked more in that area, I learned more and more. I later learned CSS and Javascript. As frameworks developed I started working in those. React and Vue in particular.</p>
-                <p>While developing these skills, I also aquired my master's degree in technology management. There I rediscovered my interest in that connection between humans and technology. I started attending classes for the human factors program at the Univerisy of Minnesota.</p>
-                <p>My education and training set me up for a path forward, but my son's accident gave me the purpose. Accessibility has been part of my development experience since. Starting with the very basics in the Section 508 or the Rehabilitation Act to later WCAG 2.2. My job provided me with the tools to learn more about accessibility and to work closely with accessibility consultants. I gained a strong understanding of the importance of the work that they do and the nuances that aren't always obvious. My curiosity led me to seek out certification in accessibility. You can learn more about that on my <Link to="/certifications"><i className="fi-list"></i>Certifications page.</Link></p> 
-                <p>It's hard to sum up a 25+ year career in a single page. But in summary, I know that the there is a larger purpose in development than just creating the latest widget. It has to connect with ALL people where they are at. It was the original concept of the web, and we should strive to attain that. I want to be part of the solution.</p>
-            </main>
-        </div>
-    )
+  useEffect(() => {
+    document.title = "Michael Tuller - About Me";
+  }, []);
+  return (
+    <>
+      <main className="prose max-w-none text-base">
+        <h1>About Me</h1>
+        <p>
+          I grew up in a rural area of Nebraska, surrounded by people who worked
+          hard all their lives. You could see it by just looking at their hands.
+          I'm proud that I had those examples to look up to—to know that
+          anything can be accomplished with some effort and grit. My father was
+          a welder, and my mother worked many different jobs to pay the bills.
+          They provided a foundation for me to be where I am now.
+        </p>
+        <p>
+          I am a proud father of two boys. They both amaze me in how they learn
+          about life. My sons are far apart in age—one is 28 and the other 13.
+          The younger son suffered a Traumatic Brain Injury as a toddler, and it
+          has changed my life. I see the world in a different way because of the
+          struggles he has. He has mobility and developmental challenges, which
+          have required adaptive modifications at times. As he has grown, he has
+          overcome many of these with the work he has put in. Many therapy
+          sessions, working on learning, and exercises to help him have helped.
+          I have also been introduced fully to the area of disabilities and
+          accessibility.
+        </p>
+        <h2>Education and Work</h2>
+        <p>
+          I am very fortunate to have worked with different companies,
+          exceptional people, and on great projects that have stretched my
+          knowledge and skills. I am grateful that I started in design, where I
+          learned the foundations of usability and clear visual communication. I
+          gained deep knowledge about how people perceive, including color,
+          iconography, and the written word. I was able to study typography in
+          great detail with a year of study that included creating fonts that
+          followed guidelines for legibility. As my career progressed, I took
+          that knowledge to first work in web design, which led to development.
+        </p>
+        <p>
+          My development experience has taken me from basic HTML to CSS to
+          JavaScript and now into full front-end development with libraries such
+          as React, Vue, and Svelte. This has opened me to new possibilities to
+          create content that can be available to anyone.
+        </p>
+        <p>
+          My education didn't stop with design. In 2006, I started the master's
+          degree program for technology management. While there, I studied with
+          a number of engineers and saw a side that I hadn't experienced before.
+          Engineers often see technology as a gadget. I see technology as the
+          connection between technology (i.e., computer, tablet, appliance) and
+          a human. That made me realize that finding that connection was my
+          passion. I had been working developing applications with backend code,
+          which wasn't where I wanted to be. I needed a new direction. I found
+          out that the University of Minnesota had developed the human factors
+          program, which is a collaboration between the departments of design,
+          psychology, mechanical engineering, computer science, and kinesiology.
+          I jumped at the chance.
+        </p>
+        <h2>Accessibility</h2>
+        <p>
+          Finally, that led me to accessibility. I am still a developer. It's
+          challenging, and that keeps me engaged, but I decided that I wanted to
+          include accessibility in all that I develop—learning the tools,
+          reading documentation, and implementing the practice. As the
+          accessibility field has grown, I have moved with it—most recently
+          attaining the highest of web accessibility certifications: the
+          Certified Professional in Web Accessibility. I continue following up
+          on the latest tools and information, allowing me to know the things
+          that are available so that everyone can have access to information in
+          their own way.
+        </p>
+      </main>
+    </>
+  );
 }
 
-export default AboutMe
+export default AboutMe;

@@ -20,7 +20,7 @@ const images = [
 function Examples() {
     return (
         <>
-            <div className="text-padding">
+            <main className="prose max-w-none text-base">
                 <h1>Work Examples</h1>
                 <div className="grid-x" >
                     <h2>U.S. Bank</h2>
@@ -67,7 +67,7 @@ function Examples() {
                         </div>
                     </PhotoProvider>
                 </div>
-            </div>
+            </main>
 
         </>
     )
