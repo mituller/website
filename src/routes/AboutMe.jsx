@@ -54,7 +54,7 @@ function AboutMe() {
           Engineers often see technology as a gadget. I see technology as the
           connection between technology (i.e., computer, tablet, appliance) and
           a human. That made me realize that finding that connection was my
-          passion. I had been working developing applications with backend code,
+          passion. I had been working on developing applications with backend code,
           which wasn't where I wanted to be. I needed a new direction. I found
           out that the University of Minnesota had developed the human factors
           program, which is a collaboration between the departments of design,

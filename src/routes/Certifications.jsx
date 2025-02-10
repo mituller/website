@@ -14,29 +14,29 @@ function Certifications() {
         <h1>Certifications</h1>
         <h2>Accessibility</h2>
         <p>
-          Over the years I have done a great deal of work in accessibility. Like
-          most, at first it was learn as you go and figuring out with searches.
-          The basics were covered and used tools like Wave and use of screen
-          readers to help find issues during development.
+          Over the years, I have done a great deal of work in accessibility.
+          Like most, at first, it was learn as you go and figuring out with
+          searches. The basics were covered, and I used tools like Wave and
+          screen readers to help find issues during development.
         </p>
         <p>
           As time went by and my career developed, I was pulled more and more
-          into accessibility solutioning, both in code and design. Tools grew
-          and accessibility began to be looked at more critically and careers in
-          the space developed.
+          into accessibility solutioning, both in code and design. Tools grew,
+          and accessibility began to be looked at more critically, and careers
+          in the space developed.
         </p>
         <p>
-          In 2020 I was fortunate to start working at U.S. Bank in a role that
+          In 2020, I was fortunate to start working at U.S. Bank in a role that
           pushed me further on the accessibility path. The bank has a strong
-          accessibility culture, and because of that extensive training through
-          Deque University is manditory for all developers and designers. This
+          accessibility culture, and because of that, extensive training through
+          Deque University is mandatory for all developers and designers. This
           gave me an even stronger foundation in accessibility and introduced me
           to more people that focused on A11y in the design space. I grew more
-          interested, and with this decided to get my certifications in web
+          interested and, with this, decided to get my certifications in web
           accessibility.
         </p>
         <strong>CPACC</strong>
-        <div className="">
+        <div>
           <img
             className="iaap-logo"
             src={CPACCLogo}
@@ -50,7 +50,7 @@ function Certifications() {
           the web, digital techonologies, and architecture.
         </p>
         <strong>WAP</strong>
-        <div className="">
+        <div>
           <img
             className="iaap-logo"
             src={WASLogo}
@@ -62,7 +62,7 @@ function Certifications() {
           quantifies hands-on technical digital accessibility proficiency.
         </p>
         <strong>CPWA</strong>
-        <div className="">
+        <div>
           <img
             className="iaap-logo"
             src={CPWALogo}
